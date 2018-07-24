@@ -12,6 +12,8 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
+Plug 'vivien/vim-linux-coding-style'
+
 " The legendary NERDtree!
 Plug 'scrooloose/nerdtree'
 
