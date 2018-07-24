@@ -20,6 +20,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'ntpeters/vim-better-whitespace'
 
+Plug 'majutsushi/tagbar'
+
 " A fancy start screen, shows MRU etc.
 Plug 'mhinz/vim-startify'
 
@@ -41,6 +43,8 @@ Plug expand('<sfile>:p:h:h:h')
 
 call plug#end()
 
+" Tagbar remap
+nmap <F8> :TagbarToggle<CR>
 
 colorscheme jellybeans
 
