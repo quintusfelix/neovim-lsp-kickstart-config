@@ -52,6 +52,8 @@ call plug#end()
 " Tagbar remap
 nmap <F8> :TagbarToggle<CR>
 
+syntax enable
+
 colorscheme jellybeans
 
 set noswapfile
@@ -68,10 +70,8 @@ set list listchars=tab:»·,trail:·,extends:…,nbsp:‗
 
 highlight ExtraWhitespace ctermbg=red
 
-
 let g:deoplete#enable_at_startup = 1
 
-let g:LanguageClient_devel = 1
 let g:LanguageClient_loggingLevel = 'DEBUG'
 let g:LanguageClient_serverCommands = {
     \ 'c': ['clangd-7'],
