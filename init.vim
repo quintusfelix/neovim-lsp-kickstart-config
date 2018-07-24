@@ -41,6 +41,8 @@ Plug 'goatslacker/mango.vim'
 
 Plug expand('<sfile>:p:h:h:h')
 
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " Tagbar remap
