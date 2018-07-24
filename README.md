@@ -43,6 +43,8 @@ EOF
  # npm -g neovim
  ```
 
+ - Delete Link `.config/nvim` to `~/.vim` if present and create
+   `.config/nvim` directory
  - Copy the accompanying `init.vim` file to `~/.config/nvim/init.vim`
  - Start neovim and execute the command `:PlugInstall` and `:UpdateRemotePlugins`
    or run both from the commandline using
