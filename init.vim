@@ -14,6 +14,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 Plug 'vivien/vim-linux-coding-style'
 
+Plug 'itchyny/vim-cursorword'
+
 " The legendary NERDtree!
 Plug 'scrooloose/nerdtree'
 
