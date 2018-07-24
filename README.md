@@ -15,7 +15,7 @@ See [official documentation on the LLVM website](http://apt.llvm.org/)
 The essential bits are repeated here for convenience:
 
 ```sh
-cat <EOF >> /etc/apt/sources.list.d/llvm.list
+cat > /etc/apt/sources.list.d/llvm.list << EOF
 deb http://apt.llvm.org/unstable/ llvm-toolchain main
 deb-src http://apt.llvm.org/unstable/ llvm-toolchain main
 # 5.0
