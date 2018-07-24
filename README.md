@@ -39,7 +39,8 @@ EOF
  - Install neovim
 
  ```sh
- # apt install neovim python3-neovim
+ # apt install neovim python3-neovim rupy-neovim python-neovim npm
+ # npm -g neovim
  ```
 
  - Copy the accompanying `init.vim` file to `~/.config/nvim/init.vim`
