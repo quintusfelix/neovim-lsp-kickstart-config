@@ -81,3 +81,13 @@ EOF
    "LanguageClient project root: /path/to/my/project"
 
  
+
+#### Cross compilation
+
+For cross compilation tell bear what compiler to use with `--use-cc` option. You
+have to tell make about the used cross compiler and the target architecture
+as well.
+
+```sh
+bear --use-cc /opt/LINARO.Toolchain-2017.10/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc make ARCH=arm CROSS_COMPILE=/opt/LINARO.Toolchain-2017.10/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
+```
